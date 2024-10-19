@@ -1,0 +1,72 @@
+<head>
+    <head>
+        <title>beauty saloon</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="banner">
+            <img src="images/OIP.jfif" class="logo">
+<div class="banner-text">
+    <h1>Fashion Studio</h1>
+    <p>Style Your Beauty Is Style Your Life</p>
+    <div class="banner-btn">
+        <a href="#">Find Out</a>
+        <a href="#">Read More</a>
+    </div>
+</div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FEATURES</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">TESTIMONITALS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div id="menubtn">
+            <img src="images/menu.jfif" id="menu">
+        </div>
+        <!--features-->
+        <section id="feature">
+            <div class="title-text">
+                <p>FEATURES</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Experienced Staff</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon"></div>
+                        <i class="fa-solid fa-shield"></i>
+                        <div class="feature-text">
+                            <p>this is the initial way to open our parlor website
+                                 you can visit it and register your booking soon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-img">
+                    <img src="images/staff.jfif">
+                </div>
+            </div>
+        </section>
+
+        <script>
+            var menubtn = document.getElementById("menubtn")
+            var sideNav = document.getElementById("sidenav")
+            var menu = document.getElementById("menu")
+
+        menubtn.oneclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }   
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+        </script>
+    </body>
+</head>
